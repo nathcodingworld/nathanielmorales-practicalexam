@@ -2,10 +2,6 @@
 practical exam @  SearchWorks
 
 
-
-
-
-
 cd RE-Client
 npm install
 
@@ -18,9 +14,7 @@ cd RE-Server
 npm install
   
 env constant: {
-  
   PORT: "server port"
   DATABASE: "mongodb cluster"
   SECRET: "jsonwebtoken secret key"
-  
   }
