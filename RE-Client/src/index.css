@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f5f5f5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+@keyframes pulsea {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    transform: scale(1.2);
+  }
+  100% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
+    transform: scale(1);
+  }
+}
